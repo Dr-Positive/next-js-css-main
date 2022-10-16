@@ -1,51 +1,29 @@
 .header {
-    background-color: rgba(47, 0, 255, 0.671);   
-    display: inline-flex;  
-    
-    max-height: 128px;
-    flex: 1;
-    
-    
-   
-    
-    
-    
- 
-    .header__p{        
-        align-items: center;
-        margin-top: 52px;
-        margin-bottom: 52px;
-        
+    background-color: rgb(255, 94, 156);    
+    min-height: 128px;
+    display: inline-flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;   
+    .header__p{
+        flex-grow: 6;
     } 
 }
 .container {
-
-    background-color: rgb(255, 94, 156);    
-    display: flex;
-    width: 100%;
-    flex: 1;
-   
-     
-    min-height: 100vh;
-    
-    // .container__add{
-        
-    // }
-    
-
+    background-color: rgba(47, 0, 255, 0.671);   
+        display: flex;
+        min-height: calc(100vh - 128px);
 
 }
 .leftMenu {
-    background-color: rgb(0, 255, 98);     
-    width: 128px;   
-    
+    background-color: rgb(0, 255, 98);    
+    width: 20%;
+    min-width: 100px;
+
 }
 .main {
-    background-color: rgb(255, 0, 43);  
-    height: 100vh;
-    flex: 1;
-    
-   
-     
+    background-color: rgb(255, 0, 43);    
+    width: 80%;
+    min-width: 1840px;
 
 }
