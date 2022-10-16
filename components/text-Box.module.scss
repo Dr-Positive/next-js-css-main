@@ -1,0 +1,67 @@
+@import "../styles/globals.scss";
+
+
+
+.main {
+    border-radius: 50%;    
+    height: 20px;
+    width: 20px;
+    margin-left: 100px;
+    margin-top: 50px;    
+    border: 2px solid $border-color;       
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0 20px 20px;
+    box-shadow: $disabled-shadow;    
+}
+
+    .circle {
+        border-radius: 50%;   
+        height: 10px;
+        width: 10px;     
+        position:absolute;
+        background-color: $main-color;
+    }
+    
+    .text {
+        font-size: 14px;
+        font-weight: 400;
+        font-style: normal;
+        font-family: $text-font; 
+        margin-left: 250px; 
+        display: flex;          
+        align-items: center;
+        justify-content: center;   
+        min-height: 50px;
+        min-width: 400px;    
+    }
+    
+    .main:hover:not(.disabled) {
+    cursor: pointer;
+    border-color: $main-color;
+  }
+
+  .checked:not(.disabled) {
+    border-color: $main-color;
+    .text{
+      box-shadow: $cheked-shadow;
+    }
+    
+  }
+
+  .disabled {
+    border-color: $disabled-border-color;    
+    .text{
+        color: $disabled-border-color;
+        box-shadow: $cheked-shadow;
+    }
+  }
+
+  .disabled.checked {
+    .circle {
+      background-color: $disabled-border-color;
+      
+    }
+  }

@@ -1,0 +1,38 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto");
+@import url("http://fonts.googleapis.com/css?family=Russo+One");
+@import url("http://fonts.googleapis.com/css?family=Lora");
+
+*{
+  padding: 0;
+  margin: 0;
+}
+
+
+html,
+body {
+    font-size: 18px;
+    min-height: 100vh;    
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif; 
+}
+
+:active, :focus {
+  outline: none;
+}
+
+
+a, a:visited, a:hover {
+  text-decoration: underline;
+}
+
+nav, header, footer, aside {
+  display: block;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: inherit;
+  font-weight: inherit;
+}
+button {
+  cursor: pointer;
+}

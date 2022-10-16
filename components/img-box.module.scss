@@ -1,0 +1,15 @@
+@import "../styles/globals.scss";
+
+
+.main{
+    position: relative;
+    display: flex;
+    align-items: center;     
+    flex-grow: 1;
+}
+
+.text{
+    margin-bottom: 3px;
+    margin-left: 10px;
+    color: $default-color;
+}

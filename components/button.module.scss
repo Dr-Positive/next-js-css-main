@@ -1,0 +1,42 @@
+@import "../styles/globals";
+
+.button 
+{
+    min-width: 119px;
+    min-height: 42px;
+    align-items: center;
+    justify-content: center;   
+    gap: 12px;
+    position: relative;
+    background: #E6F0F0;
+    border-radius: 6px;
+    margin: 20px 50px 20px 20px;
+    border: 0px solid $border-color;
+    display: flex;
+    
+}
+
+.text {
+    font-size: 14px;
+    font-weight: 500;
+    font-style: normal;
+    font-family: $text-font;
+}
+
+.button:hover:not(:disabled) {
+    background-color: $main-color;
+    box-shadow: none;
+
+    .text {
+      color: $color;
+    }
+  }
+
+  .active:not(:disabled) {
+    background-color: $color;
+    box-shadow: none;
+
+    .button__text {
+      color: $color;
+    }
+  }

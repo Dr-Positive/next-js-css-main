@@ -1,0 +1,41 @@
+@import "../styles/globals";
+
+.main {    
+    color: aqua;
+    height: 18px;
+    width: 18px;
+    left: 2px;
+    top: 2px; 
+    border: 2px solid $border-color;;       
+    position: relative;  
+    display: flex;
+    margin: 20px 50px 20px 20px;    
+    border-radius: 1px;
+}
+
+.square{
+    width: 6px;
+    height: 12px;    
+    border: 1px solid $white-color;
+    border-width: 0 2.5px 2.5px 0;
+    transform: rotate(43deg);
+    left: 5px;
+    bottom: 4px;
+    position:absolute;    
+}
+
+
+.main:hover:not(.disabled) {
+    cursor: pointer;
+    border-color: $main-color;    
+  }
+
+  .checked:not(.disabled) {
+    border-color: $main-color;
+    background-color: $main-color;
+  }
+
+  .disabled {
+    border-color: $disabled-border-color;
+  }
+
