@@ -3,6 +3,8 @@
 .main {
     margin: 20px 50px 20px 20px; 
     display: block;
+    align-items: center;
+    justify-content: center
     
     
 }
@@ -23,11 +25,4 @@
     align-items: center;
     justify-content: center;
     
-}
-
-.qustion {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-column-gap: 10px;
-    grid-row-gap: 1em;
 }

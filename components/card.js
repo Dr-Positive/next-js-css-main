@@ -1,5 +1,6 @@
 import styles from '../components/card.module.scss'
 import Image from 'next/image'
+import { TextBox } from '../components/text-Box.js'
 
 export function Card({ text, src }) {
     

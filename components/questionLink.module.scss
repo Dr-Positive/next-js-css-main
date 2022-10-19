@@ -1,0 +1,24 @@
+@import "../styles/globals.scss";
+
+.link {
+  width:34px;
+  text-align: center;
+  margin: 0 auto;
+  padding: 12px 0;
+  border-bottom: 1px solid #E0E0E0;
+}
+
+.link__text{
+  color:#006666;
+}
+
+.disabled {
+  color: #BDBDBD;
+}
+
+.isUHere {
+  color: $main-color;
+}
+
+
+
