@@ -29,6 +29,17 @@
 
     display: flex;
     flex-wrap: wrap;
+    align-content: flex-start;
+    width: 900px;
+    height: 400px;
+    align-items: center;    
+    
+    align-self: center;
+    margin-left: 25%;
+    justify-content: flex-end;
+
+   
+    
     
     
 
@@ -53,12 +64,12 @@
 
 
 
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-    grid-column-gap: 24px;
-    grid-row-gap: 24px;
-    justify-items: center;
+    // display: grid;
+    // grid-template-columns: 1fr 1fr;
+    // grid-template-rows: 1fr 1fr;
+    // grid-column-gap: 24px;
+    // grid-row-gap: 24px;
+    
 
     
 
@@ -81,6 +92,9 @@
     //     justify-self: start;
     //     grid-area: 3 / 3 / 5 / 5;
     // }
+}
 
-
+.answer{
+    margin-top: 80px;
+    
 }

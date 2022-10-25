@@ -1,6 +1,7 @@
 import styles from '../components/card.module.scss'
 import Image from 'next/image'
 import { TextBox } from '../components/text-Box.js'
+import { Button } from './button'
 
 export function Card({ text, src }) {
     function GridItem ( {children }) {  }
@@ -11,11 +12,15 @@ export function Card({ text, src }) {
           
             <div className={styles.qustion}>     
             
-            <TextBox className={styles.qustion__1} checked={false} disabled={false} text='хувер кнопка' ></TextBox>         
-          
+              <TextBox className={styles.qustion__1} checked={false} disabled={false} text='хувер кнопка' ></TextBox>                   
               <TextBox className={styles.qustion__2} checked={false} disabled={true} text='дизаейбл кнопка'></TextBox>
               <TextBox className={styles.qustion__3} checked={true} disabled={false} text='чекай кнопка'></TextBox>
               <TextBox className={styles.qustion__4} checked={true} disabled={true} text='дизейбл/чекай кнопка'></TextBox> 
+              <div className={styles.answer}>
+              <Button checked={true} disabled={true} text='Пропустить'> </Button>
+              <Button checked={false} disabled={false} text='Ответить'> </Button>
+              </div>
+
               
           </div>    
       </div> 

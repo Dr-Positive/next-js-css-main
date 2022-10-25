@@ -11,7 +11,7 @@ export function MainLayout({}) {
           <LeftBar></LeftBar>
         </div>
 
-        <div className={styles.main}>основа
+        <div className={styles.main}>
         <Card  text={"Посмотрите на карту и определите о какой войне идет речь?"}>  </Card>
         </div>
         <div className={styles.header}>
