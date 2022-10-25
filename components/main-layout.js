@@ -12,7 +12,7 @@ export function MainLayout({}) {
         </div>
 
         <div className={styles.main}>основа
-        <Card></Card>
+        <Card  text={"Посмотрите на карту и определите о какой войне идет речь?"}>  </Card>
         </div>
         <div className={styles.header}>
           <div className={styles.header__start}>
